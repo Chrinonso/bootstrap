@@ -1,0 +1,92 @@
+body{
+    margin: auto 0;
+    padding: 0px;
+    background-image: url('Skydiving.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+img{
+    height: 50px;
+    width: 50px;
+    margin: 15px 0 0 100px;
+    border-radius: 100%;
+
+}
+
+.topper{
+    margin: -31px 0 0 160px;
+    color: aqua;
+    font-weight: 700;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    float: right;
+    margin: -29px 24px 0 0;
+    
+}
+
+li{
+    padding: 20px;
+    margin-top: -20px;
+    margin-right: -20px;
+    
+}
+
+li:hover{
+    transform: rotate(-7deg);
+    
+}
+
+a{
+    color: red;
+    text-decoration: none;
+}
+
+/* a:hover{
+    color: red;
+    text-decoration: none;
+    background-color: rgba(255, 166, 0, 0);
+    border: 1px solid orange; */
+
+.desc{
+    text-align: center;
+    justify-content: center;
+    font-size: 75px;
+    align-items: center;
+    margin-top: 200px;
+    color: white;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgreen;
+    margin: 0px 0 0 720px;
+    border: none;
+    height: 50px;
+    width: 130px;
+    border-radius: 3px;
+    font-size: 20px;
+
+}
+
+button:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(144, 238, 144, 0);
+    margin: 0px 0 0 720px;
+    border: 1px solid lightgreen;
+    height: 50px;
+    width: 130px;
+    border-radius: 3px;
+    font-size: 20px;
+    transform: rotate(-7deg);
+
+}
